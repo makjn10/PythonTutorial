@@ -64,4 +64,8 @@ if age >= 18 and crime_record == "no":
 else :
     print("Not eligible")
 
+name = "Mayank Jain"
+print("Mayank" in name)
+print("Mayank" not in name)
+
 
