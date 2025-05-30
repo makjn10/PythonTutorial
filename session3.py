@@ -54,4 +54,7 @@ print(f_name.rstrip())
 print(f_name.replace("a", "e"))
 print(f_name)
 
-f_name = "Mayank"
+orders_df = "1,2017-03-23 00:00:00.0,1156,CLOSED"
+orders_new_df = orders_df.split(",")
+print(orders_new_df)
+print(orders_new_df[3].lower())
